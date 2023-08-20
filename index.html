@@ -8,20 +8,21 @@
         <link rel="icon" href="img/pp.png" type="image/x-icon">
     </head>
     <body>
-        <h1>People entered:</h1>
-        <div class="card">
-            <h2 id="count-el">0</h2>
+        <div class="container">
+            <h1>People entered:</h1>
+            <div class="card">
+                <h2 id="count-el">0</h2>
+            </div>
+            <div class="button-container">
+                <button id="increment-btn" onclick="increment()">INCREMENT</button>
+                <button id="decrement-btn" onclick="decrement()">DECREMENT</button>
+                <button id="save-btn" onclick="save()">SAVE</button>
+            </div>
+            <div class="savingCard">
+                <p id="save-el">Entries: </p>
+                <p id="date-el">DATE</p>
+            </div>
         </div>
-        <div class="button-container">
-            <button id="increment-btn" onclick="increment()">INCREMENT</button>
-            <button id="decrement-btn" onclick="decrement()">DECREMENT</button>
-            <button id="save-btn" onclick="save()">SAVE</button>
-        </div>
-        <div class="savingCard">
-            <p id="save-el">Entries: </p>
-            <p id="date-el">DATE</p>
-        </div>
-        
         <script src="index.js"></script>
     </body>
 </html>
